@@ -1,7 +1,5 @@
 #!/bin/bash
 
-
-echo ${BASH_SOURCE[0]}
 parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 data_path="$parent_path/../data"
