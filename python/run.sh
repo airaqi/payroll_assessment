@@ -6,8 +6,7 @@ parent_path=$( cd "$(dirname "${BASH_SOURCE[0]}")" ; pwd -P )
 
 data_path="$parent_path/../data"
 def_data_file="sample.txt"
-data_file=$def_data_file 
-
+data_file="$data_path/$def_data_file"
 
 if [ ! -z "$1" ]; then
 
