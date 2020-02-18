@@ -113,4 +113,5 @@ Net Amount                                  = salary + loan + incentive - tax - 
 * "run.sh" script attempts to find the sample data file in local directory first, then in data directory.
 * Develop unit tests to test your implementation.
 * Fork the repository and add a pull request to submit the assignment.
+* Use spreadsheets in data directory as a sample data and calculations
 ```
