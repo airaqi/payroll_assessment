@@ -52,8 +52,8 @@ employee_id employee_type salary loan incentive
 Below is a sample input:
 
 ```
-5 
 200000
+5
 1 1 5000 5000 300
 2 1 9000 0 1000
 3 1 20000 -400 0
