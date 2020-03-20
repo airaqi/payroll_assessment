@@ -16,7 +16,7 @@ Payroll calculations are composed of the following categories -  category (data 
     * 10% above $50,000.00 
 * Social Security (float percentage / Regular)
     * Employee share is 14% for basic salary.
-    * Company share is 24% of basic salary.
+    * Company share is 26% of basic salary.
 * Loans (Positive number for request, negative for setlement / Regular)
 * Insentives (Positive number / Regular, Part-timer)
 
@@ -25,6 +25,9 @@ Payroll calculations are composed of the following categories -  category (data 
 2. Social Security
     1. Employee Contribution = Basic salary * 14%
     2. Company Contribution = Basic * 26%
+3. Net Amount = salary + loan + incentive - tax - Social Security (Employee Cont.)
+4. Cashbox = Cash box - Salaries
+5. Cash short = Salaries - Cash box
 
 You need to create an application that applys above rules, and print out the following amounts:
 * Total amount of salaries
@@ -59,10 +62,10 @@ Below is a sample input:
 Sample output should be:
 
 ```
-Salaries: 155240.00
+Salaries: 141790.00
 Taxes: 13450.00
 SS: 13600.00
-Cashbox: 44760.00
+Cashbox: 58210.00
 Cash short: 0.00
 ```
 
@@ -80,10 +83,10 @@ Social Security Tatal Amount (ss)           = sse + ssc
                                             = 700.00 + 1300.00 = 2000.00
 
 Tax                                         = salary * 0 
-                                            = 4600.00 * 0 = 0
+                                            = 5000.00 * 0 = 0
 
 Net Amount                                  = salary + loan + incentive - tax - sse 
-                                            = 5000.00 + 5000.00 + 300.00 - 0.00 - 700.00
+                                            = 5000.00 + 5000.00 + 300.00 - 0.00 - 700.00 = 9600.00
 ```
 
 Employee 2:
@@ -98,10 +101,10 @@ Social Security Tatal Amount (ss)           = sse + ssc
                                             = 1260.00 + 2340.00 = 3600.00
 
 Tax                                         = salary * 0 
-                                            = 4600.00 * 0.05 = 450.00
+                                            = 9000.00 * 0.05 = 450.00
 
 Net Amount                                  = salary + loan + incentive - tax - sse 
-                                            = 9000.00 + 0.00 + 1000.00 - 0.00 - 700.00
+                                            = 9000.00 + 0.00 + 1000.00 - 0.00 - 700.00 = 8290.00
 ```
 
 ## Notes
