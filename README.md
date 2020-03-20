@@ -29,6 +29,8 @@ Payroll calculations are composed of the following categories -  category (data 
 4. Cashbox = Cash box - Salaries
 5. Cash short = Salaries - Cash box
 
+> Use __ sample_data.xlsx __ for a full calculation details.
+
 You need to create an application that applys above rules, and print out the following amounts:
 * Total amount of salaries
 * Total amount of taxes
