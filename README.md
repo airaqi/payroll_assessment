@@ -29,7 +29,7 @@ Payroll calculations are composed of the following categories -  category (data 
 4. Cashbox = Cash box - Salaries
 5. Cash short = Salaries - Cash box
 
-> Use __sample_data.xlsx__ for a full calculation details.
+> Use __sample_data.xlsx__ for full calculation details.
 
 You need to create an application that applys above rules, and print out the following amounts:
 * Total amount of salaries
