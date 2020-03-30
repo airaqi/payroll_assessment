@@ -28,18 +28,20 @@ class App:
         self.empNo = int(input("Employees Number: "))
         self.emps = []
 
-        """for i in range(self.empNo):
+        for i in range(self.empNo):
             msg = "Employee's data (emp_no emp_type salary loan incentive): "
             if sys.version_info < (3, 0):
                 emp = list(map(int, raw_input(msg).split()))
             else:
                 emp = list(map(int, input(msg).split()))
-            self.emps.append(emp)"""
+            self.emps.append(emp)
 
+        """
         self.emps=[[1, 1, 5000, 5000, 300], [2, 1, 9000, 0, 1000], [3, 1, 20000, -400, 0], [4, 2, 10000, 0, 100], [5, 3, 110000, 0, 0]]
         print('Cashbox Balance ', self.cashboxBal)
         print('Employees Number ', self.empNo)
         print('Employees', self.emps)
+        """
 
     def process(self):
         salary,sum_salary,loan,sse,ssc,tax,ss,net,incentive=0,0,0,0,0,0,0,0,0
