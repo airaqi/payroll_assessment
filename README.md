@@ -1,6 +1,17 @@
 # Monthly Payroll Assessment
 
-Company employees can be categorized into three categories with their relative ID's as follows:
+First we would like to thank you for your interest in MideastSoft, 
+and we wish you all the best in this assessment, and please consider this 
+assessment as an introduction to yourself, so please make sure to introduce the
+best that you've got.
+
+Try to use your logic, and OOP and test, test, test.
+
+Good luck.
+
+## Assessment Requirements
+
+Company employees are categorized into three categories with their relative ID's as follows:
 
 1. Regular
 2. Part timer
