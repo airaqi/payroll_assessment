@@ -1,0 +1,5 @@
+Salaries: 141790.0
+Taxes: 13450.0
+SS: 13600.0
+Cashbox: 58210.0
+Cash short: 0.0
