@@ -51,8 +51,8 @@ You need to create an application that applys above rules, and print out the fol
 
 ## Usage
 
-Use the **run.sh** script to run your implementation as follows:
-
+* Please **Fork** the project to your repository
+* Use the **run.sh** script to run your implementation as follows:
 * Change to the **php/** or **python/** directory as required.
 * Run the **run.sh** script as illustrated below.
 
@@ -63,6 +63,7 @@ $ ./run.sh [datafile]
 * Use the script without any inputs to use the default datainput **sample.txt**
 * You can pass a relative path or full path to other input files or a single filename in the formentioned format in order to have a new test.
 * Several data input files available for your use in the format of **datainXX.txt** with relative output in the format of **dataoutXX.txt**.
+* Issue a **Pull Request** to the same repository to submit your assessment implementation.
 
 ## Inputs
 First line you will get N number of employees in first line, and cash box amount available on hand in the second line, then employees data each in separate line which is composed of the following:
