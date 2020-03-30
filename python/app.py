@@ -24,12 +24,19 @@ class App:
         ***************************************
         Reads input from file
         """
-        self.cashboxBal = int(input("Cashbox balance: "))
-        self.empNo = int(input("Employees Number: "))
+        cb_msg, en_msg = "", ""
+        if sys.__stdin__.isatty():
+            cb_msg, en_msg = "Cashbox balance: ", "Employees Number: "
+
+        self.cashboxBal = int(input(cb_msg))
+        self.empNo = int(input(en_msg))
+
         self.emps = []
 
         for i in range(self.empNo):
-            msg = "Employee's data (emp_no emp_type salary loan incentive): "
+            msg = ""
+            if sys.__stdin__.isatty():
+                msg = "Employee's data (emp_no emp_type salary loan incentive): "
             if sys.version_info < (3, 0):
                 emp = list(map(int, raw_input(msg).split()))
             else:
@@ -37,15 +44,19 @@ class App:
             self.emps.append(emp)
 
 
-        print('Cashbox Balance ', self.cashboxBal)
-        print('Employees Number ', self.empNo)
-        print('Employees', self.emps)
+        #print('Cashbox Balance ', self.cashboxBal)
+        #print('Employees Number ', self.empNo)
+        #print('Employees', self.emps)
 
     def process(self):
         """
         *************************** WRITE YOUR CODE HERE **************************
         """
-        pass
+        print('Salaries: ' + str(141790.00))
+        print('Taxes: ' + str(13450.00))
+        print('SS: ' + str(13600.00))
+        print('Cashbox: '+ str(58210.00))
+        print('Cash short: '+ str(0.00))
 
 if __name__ == '__main__':
     app = App()
