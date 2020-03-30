@@ -50,7 +50,7 @@ $ ./run.sh [datafile]
 ```
 
 * Use the script without any inputs to use the default datainput **sample.txt**
-* You can pass a relative path to other input files in the formentioned format in order to have a new test.
+* You can pass a relative path or full path to other input files or a single filename in the formentioned format in order to have a new test.
 * Several data input files available for your use in the format of **datainXX.txt** with relative output in the format of **dataoutXX.txt**.
 
 ## Inputs
