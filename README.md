@@ -38,6 +38,18 @@ You need to create an application that applys above rules, and print out the fol
 * cashbox amount after salaries
 * cashbox short amount if any.
 
+## Usage
+
+Use the **run.sh** script to run your implementation as follows:
+
+```Shell
+$ ./run.sh [datafile]
+```
+
+* Use the script without any inputs to use the default datainput **sample.txt**
+* You can pass a relative path to other input files in the formentioned format in order to have a new test.
+* Several data input files available for your use in the format of **datainXX.txt** with relative output in the format of **dataoutXX.txt**.
+
 ## Inputs
 First line you will get N number of employees in first line, and cash box amount available on hand in the second line, then employees data each in separate line which is composed of the following:
 
