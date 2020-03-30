@@ -56,9 +56,9 @@ You need to create an application that applys above rules, and print out the fol
     * Change to the **php/** or **python/** directory as required.
     * Run the **run.sh** script as illustrated below.
 
-```Shell
-$ ./run.sh [datafile]
-```
+    ```Shell
+    $ ./run.sh [datafile]
+    ```
 
     * Use the script without any inputs to use the default datainput **sample.txt**
     * You can pass a relative path or full path to other input files or a single filename in the formentioned format in order to have a new test.
