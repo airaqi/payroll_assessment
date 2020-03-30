@@ -42,6 +42,9 @@ You need to create an application that applys above rules, and print out the fol
 
 Use the **run.sh** script to run your implementation as follows:
 
+* Change to the **php/** or **python/** directory as required.
+* Run the **run.sh** script as illustrated below.
+
 ```Shell
 $ ./run.sh [datafile]
 ```
