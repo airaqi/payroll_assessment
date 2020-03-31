@@ -61,7 +61,7 @@ You need to create an application that applys above rules, and print out the fol
         > $./run.sh [datafile]
         > ```
         > Windows
-         ```shell
+        > ```shell
         > C:>run.bat [datafile]
         > ```
 
