@@ -54,16 +54,16 @@ You need to create an application that applys above rules, and print out the fol
 * Please **Fork** the project to your repository
 * Use the **run.sh** or **run.bat** scripts to run your implementation, on linux or windows environments respectively as follows:
     * Change to the **php/** or **python/** directory as required.
-    * Run the **run.sh** script as illustrated below.
+    * Exucute the run script as illustrated below.
 
-    ```Shell
-    $ ./run.sh [datafile]
-    ```
-    or
-    ```Shell
-    C:>run.bat [datafile]
-    ```
-
+        > Linux 
+        > ```shell
+        > $./run.sh [datafile]
+        > ```
+        > Windows
+         ```shell
+        > C:>run.bat [datafile]
+        > ```
 
     * Use the script without any inputs to use the default datainput **sample.txt**
     * You can pass a relative path or full path to other input files or a single filename in the formentioned format in order to have a new test.
@@ -105,7 +105,8 @@ Cash short: 0.00
 
 ## Explanation:
 
-Employee 1:
+### Employee 1:
+
 ```
 Social Security Employee Contribution (sse) = salary * 0.14 
                                             = 5000.00 * 0.14 = 700.00
@@ -123,7 +124,8 @@ Net Amount                                  = salary + loan + incentive - tax - 
                                             = 5000.00 + 5000.00 + 300.00 - 0.00 - 700.00 = 9600.00
 ```
 
-Employee 2:
+### Employee 2:
+
 ```
 Social Security Employee Contribution (sse) = salary * 0.14 
                                             = 9000.00 * 0.14 = 1260.00
@@ -142,13 +144,12 @@ Net Amount                                  = salary + loan + incentive - tax - 
 ```
 
 ## Notes
-```
-* Select the language that you want to use either php or python
-* Don't update any function difinitions in App class
-* Run application using provided run.sh script 
-* Provide data file to the run.sh script or use default sample.txt
-* "run.sh" script attempts to find the sample data file in local directory first, then in data directory.
-* Develop unit tests to test your implementation.
-* Fork the repository and add a pull request to submit the assignment.
-* Use spreadsheets in data directory as a sample data and calculations
-```
+
+> * Select the language that you want to use either php or python
+> * Don't update any function difinitions in App class
+> * Run application using provided run.sh script 
+> * Provide data file to the run.sh script or use default sample.txt
+> * "run.sh" script attempts to find the sample data file in local directory first, then in data directory.
+> * Develop unit tests to test your implementation.
+> * Fork the repository and add a pull request to submit the assignment.
+> * Use spreadsheets in data directory as a sample data and calculations
