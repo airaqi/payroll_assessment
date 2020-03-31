@@ -52,13 +52,18 @@ You need to create an application that applys above rules, and print out the fol
 ## Usage
 
 * Please **Fork** the project to your repository
-* Use the **run.sh** script to run your implementation as follows:
+* Use the **run.sh** or **run.bat** scripts to run your implementation, on linux or windows environments respectively as follows:
     * Change to the **php/** or **python/** directory as required.
     * Run the **run.sh** script as illustrated below.
 
     ```Shell
     $ ./run.sh [datafile]
     ```
+    or
+    ```Shell
+    C:>run.bat [datafile]
+    ```
+
 
     * Use the script without any inputs to use the default datainput **sample.txt**
     * You can pass a relative path or full path to other input files or a single filename in the formentioned format in order to have a new test.
