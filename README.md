@@ -1,5 +1,6 @@
 
-<img align="right" src="img/mes.png"/><br/>
+<a href="https://www.mideastsoft.com" target="_blank"><img align="right" src="img/mes.png"/><br/></a>
+
 
 # Monthly Payroll Assessment
 
@@ -148,19 +149,23 @@ Net Amount                                  = salary + loan + incentive - tax - 
 
 ## Notes
 
-> * Select the language that you want to use either php or python
-> * Don't update any function difinitions in App class
-> * Run application using provided run.sh script 
-> * Provide data file to the run.sh script or use default sample.txt
-> * "run.sh" script attempts to find the sample data file in local directory first, then in data directory.
-> * Develop unit tests to test your implementation.
-> * Fork the repository and add a pull request to submit the assignment.
-> * Use spreadsheets in data directory as a sample data and calculations
+ * Select the language that you want to use either php or python
+ * Don't update any function difinitions in App class
+ * Run application using provided run.sh script 
+ * Provide data file to the run.sh script or use default sample.txt
+ * "run.sh" script attempts to find the sample data file in local directory first, then in data directory.
+ * Develop unit tests to test your implementation.
+ * Fork the repository and add a pull request to submit the assignment.
+ * Use spreadsheets in data directory as a sample data and calculations
 
 
-
+#  
+ 
 <sub>
-<div class="footer" align="center">
+<div class="footer" style="float:left;">
 Copyright &copy; 2020 Mideast For Modern Software, Inc. All rights resereved.
+</div>
+<div class="footer" style="float:right;">
+<a href="https://www.mideastsoft.com" target="_blank">www.mideastsoft.com</a>
 </div>
 </sub>
