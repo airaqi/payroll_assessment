@@ -1,15 +1,18 @@
+
+<img align="right" src="img/mes.png"/><br/>
+
 # Monthly Payroll Assessment
 
-First we would like to thank you for your interest in MideastSoft, 
-and we wish you all the best in this assessment, and please consider this 
-assessment as an introduction to yourself, so please make sure to introduce the
-best that you've got.
+First we would like to thank you for your interest in joining **MideastSoft** team, 
+and we wish you all the best in the assessment, so please consider this 
+assessment as an introduction to yourself, make sure to introduce the
+best in you.
 
-Try to use your logic, and OOP and test, test, test.
+Please use your best logic, OOP, lots of comments, and test ... test ... test.
 
-Good luck.
+> Good Luck, and have a nice coding :-) 
 
-## Assessment Requirements
+## Requirements
 
 Company employees are categorized into three categories with their relative ID's as follows:
 
@@ -153,3 +156,11 @@ Net Amount                                  = salary + loan + incentive - tax - 
 > * Develop unit tests to test your implementation.
 > * Fork the repository and add a pull request to submit the assignment.
 > * Use spreadsheets in data directory as a sample data and calculations
+
+
+
+<sub>
+<div class="footer" align="center">
+Copyright &copy; 2020 Mideast For Modern Software, Inc. All rights resereved.
+</div>
+</sub>
