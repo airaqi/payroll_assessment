@@ -165,7 +165,7 @@ Net Amount                                  = salary + loan + incentive - tax - 
 <div class="footer" style="float:left;">
 Copyright &copy; 2020 Mideast For Modern Software, Inc. All rights resereved.
 </div>
-<div class="footer" style="float:right;">
+<div class="footer" align="right" style="float:right;">
 <a href="https://www.mideastsoft.com" target="_blank">www.mideastsoft.com</a>
 </div>
 </sub>
